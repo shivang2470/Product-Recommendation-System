@@ -1,0 +1,274 @@
+{
+    "data": [
+        {
+            "product_id": 1,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Alisha",
+            "retail_price": 999,
+            "discounted_price": 379
+        },
+        {
+            "product_id": 2,
+            "product_name": "FabHomeDecor Fabric Double Sofa Bed",
+            "category_id": 2,
+            "category_name": "Furniture",
+            "brand": "FabHomeDecor",
+            "retail_price": 32157,
+            "discounted_price": 22646
+        },
+        {
+            "product_id": 3,
+            "product_name": "AW Bellies",
+            "category_id": 3,
+            "category_name": "Footwear",
+            "brand": "AW",
+            "retail_price": 999,
+            "discounted_price": 499
+        },
+        {
+            "product_id": 4,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Alisha",
+            "retail_price": 699,
+            "discounted_price": 267
+        },
+        {
+            "product_id": 5,
+            "product_name": "Sicons All Purpose Arnica Dog Shampoo",
+            "category_id": 4,
+            "category_name": "Pet Supplies",
+            "brand": "Sicons",
+            "retail_price": 220,
+            "discounted_price": 210
+        },
+        {
+            "product_id": 6,
+            "product_name": "Eternal Gandhi Super Series Crystal Paper Weights  with Silver Finish",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Eternal",
+            "retail_price": 430,
+            "discounted_price": 430
+        },
+        {
+            "product_id": 7,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 2,
+            "category_name": "Furniture ",
+            "brand": "GandhiAlisha",
+            "retail_price": 1199,
+            "discounted_price": 479
+        },
+        {
+            "product_id": 8,
+            "product_name": "FabHomeDecor Fabric Double Sofa Bed",
+            "category_id": 3,
+            "category_name": "Footwear",
+            "brand": "FabHomeDecor",
+            "retail_price": 32157,
+            "discounted_price": 22646
+        },
+        {
+            "product_id": 9,
+            "product_name": "dilli bazaaar Bellies, Corporate Casuals, Casuals",
+            "category_id": 1,
+            "category_name": " Clothing",
+            "brand": "dilli bazaaar",
+            "retail_price": 699,
+            "discounted_price": 349
+        },
+        {
+            "product_id": 10,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 5,
+            "category_name": "Women's Clothing",
+            "brand": "Alisha",
+            "retail_price": 1199,
+            "discounted_price": 479
+        },
+        {
+            "product_id": 11,
+            "product_name": "Ladela Bellies",
+            "category_id": 3,
+            "category_name": "Footwear",
+            "brand": "Ladela",
+            "retail_price": 1724,
+            "discounted_price": 950
+        },
+        {
+            "product_id": 12,
+            "product_name": "Carrel Printed Women's",
+            "category_id": 1,
+            "category_name": "Clothing ",
+            "brand": "Carrel",
+            "retail_price": 2299,
+            "discounted_price": 910
+        },
+        {
+            "product_id": 13,
+            "product_name": "Sicons All Purpose Tea Tree Dog Shampoo",
+            "category_id": 4,
+            "category_name": "Pet Supplies",
+            "brand": "Sicons",
+            "retail_price": 260,
+            "discounted_price": 199
+        },
+        {
+            "product_id": 14,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Alisha",
+            "retail_price": 999,
+            "discounted_price": 379
+        },
+        {
+            "product_id": 15,
+            "product_name": "Freelance Vacuum Bottles 350 ml Bottle",
+            "category_id": 6,
+            "category_name": "Pens & Stationery",
+            "brand": "Freelance",
+            "retail_price": 699,
+            "discounted_price": 699
+        },
+        {
+            "product_id": 16,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Alisha",
+            "retail_price": 999,
+            "discounted_price": 379
+        },
+        {
+            "product_id": 17,
+            "product_name": "FabHomeDecor Fabric Double Sofa Bed",
+            "category_id": 2,
+            "category_name": "Furniture ",
+            "brand": "FabHomeDecor",
+            "retail_price": 32157,
+            "discounted_price": 22646
+        },
+        {
+            "product_id": 18,
+            "product_name": "Style Foot Bellies",
+            "category_id": 3,
+            "category_name": "Footwear ",
+            "brand": "Style Foot",
+            "retail_price": 899,
+            "discounted_price": 449
+        },
+        {
+            "product_id": 19,
+            "product_name": "Carrel Printed Women's",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Carrel",
+            "retail_price": 2499,
+            "discounted_price": 999
+        },
+        {
+            "product_id": 20,
+            "product_name": "FabHomeDecor Fabric Double Sofa Bed",
+            "category_id": 2,
+            "category_name": "Furniture",
+            "brand": "FabHomeDecor",
+            "retail_price": 32157,
+            "discounted_price": 22646
+        },
+        {
+            "product_id": 21,
+            "product_name": "Sicons Conditioning Conditoner Dog Shampoo",
+            "category_id": 4,
+            "category_name": "Pet Supplies",
+            "brand": "Sicons",
+            "retail_price": 110,
+            "discounted_price": 100
+        },
+        {
+            "product_id": 22,
+            "product_name": "Alisha Solid Women's Cycling Shorts",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Alisha",
+            "retail_price": 499,
+            "discounted_price": 399
+        },
+        {
+            "product_id": 23,
+            "product_name": "dongli Printed Boy's Round Neck T-Shirt",
+            "category_id": 1,
+            "category_name": "Clothing ",
+            "brand": "dongli",
+            "retail_price": 2400,
+            "discounted_price": 1039
+        },
+        {
+            "product_id": 24,
+            "product_name": "SWAGGA Women Clogs",
+            "category_id": 3,
+            "category_name": "Footwear",
+            "brand": "SWAGGA",
+            "retail_price": 1500,
+            "discounted_price": 1500
+        },
+        {
+            "product_id": 25,
+            "product_name": "Kennel Rubber Dumbell With Bell - Small Rubber Rubber Toy For Dog",
+            "category_id": 4,
+            "category_name": "Pet Supplies",
+            "brand": "Kennel",
+            "retail_price": 190,
+            "discounted_price": 190
+        },
+        {
+            "product_id": 26,
+            "product_name": "Glus Wedding Lingerie Set",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Killer",
+            "retail_price": 1299,
+            "discounted_price": 699
+        },
+        {
+            "product_id": 27,
+            "product_name": "Veelys Shiny White Quad Roller Skates - Size 4.5 UK",
+            "category_id": 7,
+            "category_name": "Sports & Fitness",
+            "brand": "Nivia",
+            "retail_price": 3199,
+            "discounted_price": 2499
+        },
+        {
+            "product_id": 28,
+            "product_name": "Bulaky vanity case Jewellery Vanity Case",
+            "category_id": 8,
+            "category_name": "Beauty and Personal Care",
+            "brand": "Tanishq",
+            "retail_price": 499,
+            "discounted_price": 390
+        },
+        {
+            "product_id": 29,
+            "product_name": "FDT Women's Leggings",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Peter England",
+            "retail_price": 699,
+            "discounted_price": 309
+        },
+        {
+            "product_id": 30,
+            "product_name": "Madcaps C38GR30 Men's Cargos",
+            "category_id": 1,
+            "category_name": "Clothing",
+            "brand": "Peter England",
+            "retail_price": 2199,
+            "discounted_price": 1699
+        }
+    ]
+}
