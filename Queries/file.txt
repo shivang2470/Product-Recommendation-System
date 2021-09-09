@@ -1,0 +1,71 @@
+To create nodes of products:
+
+WITH "product.json" AS url
+CALL apoc.load.json(url) YIELD value as item2
+unwind item2.data as item
+MERGE (p:Product {productId: item.product_id, productName: item.product_name, productCategoryId:item.category_id, productCategoryName:item.category_name,brandName:item.brand,price:item.discounted_price})
+RETURN *
+
+To create nodes of users:
+
+WITH "userData.json" AS url
+CALL apoc.load.json(url) YIELD value as item2
+unwind item2.data as item
+MERGE (u:User {userName: item.user_name, userId:item.user_id})
+RETURN *
+
+To create relations between user and there buys:
+
+WITH "transactionData.json" AS url
+CALL apoc.load.json(url) YIELD value as item
+MATCH (p:Product {productId:item.product_id}), (u:User {userId:item.user_id})
+CREATE (u)-[:Buys]->(p)
+RETURN *
+
+
+To make realation between existing user and there clicked products:
+
+WITH "clickResults.json" AS url
+CALL apoc.load.json(url) YIELD value as item
+MATCH (p:Product {productId:item.product_id}), (u:User {userId:item.user_id})
+CREATE (u)-[:Clicked]->(p)
+RETURN *
+
+To make realation between existing user and there searched products:
+
+WITH "searchResults.json" AS url
+CALL apoc.load.json(url) YIELD value as item
+MATCH (p:Product {productId:item.product_id}), (u:User {userId:item.user_id})
+CREATE (u)-[:Searched]->(p)
+RETURN *
+
+To delete all the nodes and relationships:
+
+MATCH (n)
+DETACH DELETE n
+
+To get particular node and where condition:
+
+MATCH p=()-[r]-()
+WHERE ID(r) IN [24]
+RETURN p
+
+To get all the rlations of particular node:
+
+MATCH z=(p:Product {productId:24})-[r]-()
+RETURN z
+
+To Recommend products according to maximum buys, searched and clicked
+
+MATCH (u:{userId:1})-[:Searched]->(p)
+RETURN p, COLLECT(p) as product
+ORDER BY SIZE(product) DESC LIMIT 6
+
+Recommend products according to user buy products category
+
+MATCH (u:User{userId:13})-[:Buys]->(p)
+MATCH (p1:Product{productCategoryId:p.productCategoryId})
+MATCH (p2:Product{productId:p1.productId})
+RETURN p2, COLLECT(p2) as recommendedProducts
+ORDER BY SIZE(recommendedProducts) DESC LIMIT 6
+
